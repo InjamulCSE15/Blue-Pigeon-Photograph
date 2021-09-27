@@ -2,3 +2,67 @@
 html {
     box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+/* Body Defaults */
+body{
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Margin & Padding */
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, pre, blockquote, figure, figcaption, hr, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Lists */ 
+ul {
+    list-style: none;
+}
+
+/* Forms */
+
+input, textarea, select, button {
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+}
+
+input, textarea, button {
+    border: 1px solid gray;
+}
+
+button {
+    padding: 0.75em 1em;
+    line-height: inherit;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+/* Media query for responsive */
+
+img, svg, iframe, video, object, embed {
+    display: block;
+    max-width: 100%;
+}
+
+/* Tables */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
