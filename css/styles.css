@@ -1,0 +1,10 @@
+/* Base Styles */
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
