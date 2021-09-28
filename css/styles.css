@@ -7,4 +7,20 @@
 a {
     color: orange;
     text-decoration: none;
+    text-transform: capitalize;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: block;
+    padding-top: 75px;
+}
+
+.container {
+    width: 970px;
+    margin: auto;
+    padding-top: 75px;
 }

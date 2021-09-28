@@ -53,7 +53,7 @@ button {
     background-color: transparent;
 }
 
-/* Media query for responsive */
+/* Media elements */
 
 img, svg, iframe, video, object, embed {
     display: block;
