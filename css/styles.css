@@ -110,3 +110,30 @@ header nav ul li {
     text-transform: uppercase;
     opacity: .5;
 }
+
+/* Go to Top Button */
+
+#topButton {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#topButton:hover {
+    color: blue;
+}
+
+/* Our Story Section */
+
+#our-story {
+    padding: 25px 0;
+}
+
+#our-story p {
+    text-align: justify;
+}
