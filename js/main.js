@@ -1,1 +1,3 @@
-console.log('JavaScript working...')
+// console.log('JavaScript working...')
+
+window.addEventListener()
