@@ -1,6 +1,7 @@
 /* Box Sizing */
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -12,7 +13,7 @@ html {
 /* Body Defaults */
 body{
     min-height: 100vh;
-    scroll-behavior: smooth;
+    
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }
