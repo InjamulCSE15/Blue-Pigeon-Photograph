@@ -12,6 +12,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: #fff;
 }
 
 section {
@@ -287,7 +288,7 @@ footer nav ul li {
 }
 
 footer a:hover {
-    transition: all 0.4s linear;
+    transition: all 0.3s linear;
     text-decoration: none;
     font-weight: bolder;
     font-size: 1.2rem;
