@@ -169,3 +169,15 @@ header nav ul li {
     background-color: #e3e3e3e3;
     padding: 25px 0;
 }
+
+#upcoming-events-table {
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+    margin-bottom: 20px;
+}
+
+#upcoming-events-table th {
+    text-align: left;
+    font-weight: bolder;
+}
