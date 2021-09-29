@@ -260,20 +260,20 @@ footer .menu-wrapper {
     text-align: left;
 }
 
-.social a{
+.social-items{
     display: inline-block;
     line-height: 150px;
     padding: 0 10px;
     
 }
 
-/* .social a:hover{
-    transition: all 0.4s linear;
-    font-weight: bolder;
-    font-size: 1.2rem;
+.social-items:hover{
     color: #fff;
+    transition: all 0.3s;
+    transform: scale(1.4);
+   
     
-} */
+}
 
 .social svg{
     display: inline; 
@@ -287,12 +287,13 @@ footer nav ul li {
     line-height: 150px;
 }
 
-footer a:hover {
-    transition: all 0.3s linear;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 1.2rem;
+footer .menu-item:hover {
+    transition: all 0.3s;
+    transform: scale(1.4);
+    font-weight: bold;
     color: #fff;
+    text-decoration: none;
+
 }
 
 footer #copy-right {
