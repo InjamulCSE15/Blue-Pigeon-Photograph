@@ -181,3 +181,63 @@ header nav ul li {
     text-align: left;
     font-weight: bolder;
 }
+
+/* This is the Contact form section */
+
+#contact {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+#contact fieldset {
+    width: 80%;
+    margin: auto;
+    background-color: #e3e3e3;
+    padding: 20px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+#contact p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#contact input, textarea {
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+#contact input {
+    height: 40px;
+}
+
+#contact textarea {
+    height: 200px;
+}
+
+#contact button {
+    width: 100%;
+    color: #fff;
+    background-color: rgb(53, 49, 49);
+    border-radius: 5px;
+    font-weight: bolder;
+    letter-spacing: .1em;
+    border: none;
+}
+
+#contact button:hover {
+    cursor: pointer;
+    background-color: blue;
+    transition: all .3s linear ;
+}
+
+/* #contact .container {
+    padding: 0;
+} */
+
+form {
+    /* padding-top: 10px; */
+}
