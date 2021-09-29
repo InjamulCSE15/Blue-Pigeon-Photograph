@@ -174,6 +174,7 @@ header nav ul li {
     width: 100%;
     border-spacing: 10px;
     border-collapse: separate;
+    padding-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -230,14 +231,24 @@ header nav ul li {
 
 #contact button:hover {
     cursor: pointer;
-    background-color: blue;
+    background-color: orange;
+    color: #000;
     transition: all .3s linear ;
 }
 
-/* #contact .container {
-    padding: 0;
+#contact .container {
+   padding-top: 0px;
+}
+
+/* form {
+    padding-top: 10px;
 } */
 
-form {
-    /* padding-top: 10px; */
+/* This is the Footer section */
+
+footer {
+    background-color: #222;
+    position: relative;
+    bottom: 0;
+    height: 100px;
 }
